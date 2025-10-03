@@ -1,6 +1,21 @@
 # MLProject_for_LinkPlusIT
 A simple ML project where you define if a message is spam or not
 
+The structure of the project should be like this:
+ML-Text-Classification/
+│
+├── data/
+│   └── spam.csv         # dataset file
+│
+├── src/
+│   ├── task1_prep.py    # task 1: data preparation
+│   ├── task2_analysis.py# task 2: exploratory analysis
+│   ├── task3_train.py   # task 3: model training
+│   ├── predict.py       # prediction script
+│   └── MLProj.py        # main file that runs all tasks
+│
+└── README.md
+
 Requirements
 Python 3.8+
 
